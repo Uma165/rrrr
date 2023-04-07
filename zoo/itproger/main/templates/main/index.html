@@ -1,0 +1,12 @@
+{% extends 'main/wer.html' %}
+{% load static %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ title }}</h1><br>
+        <h3>Зоопарки – это удивительные места, где мы можем наблюдать различных животных из разных уголков планеты.</h3><br>
+        <button class="btn btn-warning">Подробнее</button><br>
+        <img src="{% static 'main/img/zoopark-bianki.jpg' %}" alt="Зоо"><br>
+    </div>
+{% endblock %}
